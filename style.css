@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Prompt", sans-serif;
+}
+
+body {
+  background: #fcdbf2;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #faf5bd;
+  color: #fdbbed;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  gap: 15px;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.menu a:hover,
+.menu a.active {
+  background: #ff6600;
+}
+
+/* หน้าแรก */
+.home {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  background: #ff6600;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #ff3300;
+}
+
+/* เมนู */
+.gallery {
+  padding: 20px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.grid img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* ตัวเลือก */
+.project {
+  padding: 20px;
+  text-align: center;
+}
+
+.responsive-video {
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto;
+  border-radius: 12px;
+}
+
+/* ข้อมูล */
+.info {
+  padding: 20px;
+  text-align: center;
+}
